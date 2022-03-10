@@ -27,37 +27,33 @@ main {
 } */
 
 .grid {
-  color: blueviolet;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 1rem;
-  margin: 0 auto;
-  width: 80%;
+  /* margin: 0 auto;
+  width: 80%; */
   background-color: bisque;
 }
 
 .card {
   /* display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr); */
   gap: 1rem;
   margin: 0 auto;
-  width: 80%; */
-  /* background-color: aliceblue; */
+  width: 80%;
+  background-color: aliceblue;
   border-radius: 5px;
   /* min-height: 200px;
   min-width: 50px; */
-  /* border-color: brown;
-  border-style: solid; */
   /* display: flex; */
-  justify-content: center;
-  text-align: bottom;
-  align-items: center;
-  background-color: beige;
+  /* justify-content: center; */
+  /* text-align: bottom; */
+  /* align-items: center; */
 }
 
 .card img {
   /* max-height: 200px; */
-  object-fit: cover;
+  object-fit: 80%;
   object-position: top;
   width: 100%;
   height: 80%;
@@ -65,12 +61,12 @@ main {
   filter: saturate(1);
   filter: sepia(80%) blur(0);
 }
-
+/* 
 .card span {
-  /* align-self: flex-end; */
+  align-self: flex-end;
   position: relative;
   top: 10px;
-}
+} */
 
 .card:hover img {
   filter: none;
